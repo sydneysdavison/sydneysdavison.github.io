@@ -1,14 +1,14 @@
 /***** NAVBAR *****/
 
 .navbar {
-    background-color: #10131c;
+    background-color: #000000;
     border-radius: 0;
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
     color: white;
-    font-size: px;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -17,7 +17,7 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #c9c9c9;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -84,9 +84,9 @@
 
 /*** Basic Text Styles ***/
 
-#about-world {
-    max-height: 200px;
-}
+ #about-SydneyDavison {
+    border-radius: 25px;
+ }
 
 .resume h3 {
     font-weight: bold;
@@ -116,7 +116,7 @@ a:hover {
 
 body {
 
-    font-family: 'Georgia', serif;
-    background-color: #f7f1fa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b1b1b1;
     color: #242424;
 }
