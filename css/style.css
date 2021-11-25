@@ -8,7 +8,7 @@
 /* Navbar title */
 .navbar-default .navbar-brand {
     color: white;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -17,13 +17,13 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+    color: #ff6600;
     text-decoration: none;
 }
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     padding: 10px;
 }
@@ -50,42 +50,42 @@
 
 }
 
-/*** JUMBOTRON ***/
-
-.jumbotron {
-    background-image: url("../assets/contour-lines.png");
-    text-align: center;
-    color: #fff;
-    padding: 3%;
-    border-radius: 0px;
-}
-
-.jumbotron h2 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.img-responsive{
-    width:100%;
-}
-
 /*** CARD ***/
 
 .card {
     background-color: #fff;
     border-color: #cccccc;
-    border-width: 1px;
-    width: 100%;
+}
+
+.card-text {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 25px;
+    display: none;
+  }
+
+.card:hover .card-text{
+    display: block;
+    background-color: black;
+    cursor: pointer;
 }
 
 .card:hover {
-    border-color: #0c1c3a;
+    filter: brightness(75%);
 }
 
 /*** Basic Text Styles ***/
 
  #about-SydneyDavison {
     border-radius: 25px;
+    max-height: 500px;
  }
 
 .resume h3 {
@@ -103,11 +103,11 @@ p {
 }
 
 a {
-    color: #10131c;
+    color: #101c14;
 }
 
 a:hover {
-    color: #0c1c3a;
+    color: #3a130c;
 }
 
 .container{
@@ -117,6 +117,6 @@ a:hover {
 body {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #b1b1b1;
+    background-color: #ffffff;
     color: #242424;
 }
